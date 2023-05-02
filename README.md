@@ -2,7 +2,7 @@
 
 chess.js is a TypeScript chess library used for chess move
 generation/validation, piece placement/movement, and check/checkmate/stalemate
-detection - basically everything but the AI.
+detection
 
 chess.js has been extensively tested in node.js and most modern browsers.
 
