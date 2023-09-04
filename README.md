@@ -1,6 +1,6 @@
 # about
 
-chess.js is a TypeScript chess library used for chess move
+chess moves is a TypeScript chess library used for chess move
 generation/validation, piece placement/movement, and check/checkmate/stalemate
 detection
 
