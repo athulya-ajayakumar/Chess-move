@@ -40,24 +40,6 @@ moves in Standard Algebraic Notation and requires that they strictly adhere to
 the specification. The `strict` parser runs slightly faster but is much less
 forgiving of non-standard notation.
 
-## API
-
-### Constructor: Chess([ fen ])
-
-The Chess() constructor takes an optional parameter which specifies the board
-configuration in
-[Forsyth-Edwards Notation (FEN)](http://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation).
-Throws an exception if an invalid FEN string is provided.
-
-```ts
-// board defaults to the starting position when called with no parameters
-const chess = new Chess()
-
-// pass in a FEN string to load a particular position
-const chess = new Chess(
-  'r1k4r/p2nb1p1/2b4p/1p1n1p2/2PP4/3Q1NB1/1P3PPP/R5K1 b - - 0 19'
-)
-```
 
 ### .ascii()
 
