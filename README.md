@@ -1,19 +1,9 @@
-# chess.js
+# about
 
 chess.js is a TypeScript chess library used for chess move
 generation/validation, piece placement/movement, and check/checkmate/stalemate
 detection
 
-chess.js has been extensively tested in node.js and most modern browsers.
-
-## Installation
-
-Run the following command to install the most recent version of chess.js from
-NPM:
-
-```sh
-npm install chess.js
-```
 
 ## Example Code
 
