@@ -22,13 +22,7 @@ while (!chess.isGameOver()) {
 console.log(chess.pgn())
 ```
 
-## User Interface
 
-By design chess.js is a headless library and does not include user interface
-elements. Many developers have successfully integrated chess.js with the
-[chessboard.js](http://chessboardjs.com) library. See
-[chessboard.js - Random vs Random](http://chessboardjs.com/examples#5002) for an
-example.
 
 ## Move & PGN Parsers
 
